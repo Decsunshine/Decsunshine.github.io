@@ -20,8 +20,8 @@ NSThread 有两种直接创建线程的方式：
 
 ```objective-c
 NSThread* myThread = [[NSThread alloc] initWithTarget:self
-                                          selector:@selector(myThreadMainMethod:)
-                                            object:nil];
+                                             selector:@selector(myThreadMainMethod:)
+                                               object:nil];
 [myThread start];  // Actually create the thread
 ```
 
